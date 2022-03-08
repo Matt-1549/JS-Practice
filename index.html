@@ -1,17 +1,16 @@
-<!-- Lesson 1: Intro to JS -->
-
-<!-- Step 1 -->
-<!-- Create a basic HTML page with a header called "My Opinon on X", a paragraph, an image. The content of the HTML page should be about an opinion - Yes or No. -->
-
 <DOCTYPE !html>
 
 <head>
 
-
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap" rel="stylesheet">
   
 </head>
 
-<body>
+<body id="body">
 
  <h1>
    My thoughts on having pinapple on pizza 
@@ -33,39 +32,20 @@
   </p>
 
        
-    <img src="https://media.istockphoto.com/photos/man-mixing-a-whole-pineapple-with-pizza-picture-id1209862348?k=20" alt="image is supposed to be here" width=200 height=200>
+    <img id="opinionimg" src="https://media.istockphoto.com/photos/man-mixing-a-whole-pineapple-with-pizza-picture-id1209862348?k=20" alt="image is supposed to be here" width=200 height=200>
 
-    
-    
-    <button onclick='document.getElementById("opinion").innerHTML = "PINAPPLE IS BAD BECUASE IT TASTES BAD"'>Change my opinion</button>
+   
+    <button onclick="myFunction()" >Change my opinion</button>
 
-    
+    <button onclick='deleteText()'>Delete all text</button>
+
+    <button onclick='reinstateText()'>Bring the text back</button>
+
   </div>
 
 
   
 
-<!-- Step 2 -->
-<!-- Create 2 buttons that says "Change my opinion 1/2" -->
-
-<!-- Step 3 -->
-<!-- When you click that button, change the contents of the paragraph to the opposite opinion-->
-
-
-
-<!-- Step 4 -->
-<!-- When you click the next button, change the image to match your opinion-->
-
-<!-- Step 5 -->
-<!-- Add styles to your elements in style.css -->
-
-<!-- Step 6 -->
-<!-- Create two buttons: Theme 1 and Theme 2 -->
-
-<!-- Step 7 -->
-<!-- When you click Theme 1 and Theme 2, change a certain style in your page-->
-
-<!-- After all of this, do you notice a limitation about every time we make a button and try to change something? -->
 
   
 </body>
